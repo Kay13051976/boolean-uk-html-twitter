@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.height {
+  min-height: 100vh;
+}
+/* remove defaults from navigation*/
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 6px;
+}
+
+.main-layout > * {
+  border: 2px dotted black;
+}
+.icons,
+.feed,
+.sidebar-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* start navigation aside styles */
+
+.aside-nav-tweeter-logo {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+  margin-left: 40px;
+}
+.aside-nav-word-header {
+  font-size: large;
+  font-weight: 800;
+  margin-left: 13px;
+  color: lightskyblue;
+}
+.aside-nav-li {
+  width: 160px;
+  height: 40px;
+  display: grid;
+  display: inline;
+  border: 2px dotted red;
+  margin: 40px;
+}
+.aside-nav-inline {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.aside-nav-logo {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+}
+.aside-nav-li-button {
+  width: 210px;
+  height: 60px;
+  display: grid;
+  border: 2px dotted red;
+  margin-bottom: 90px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.aside-nav-word {
+  width: 110px;
+  height: 40px;
+
+  margin-left: 18px;
+  padding-top: 8px;
+  justify-items: center;
+  font-size: large;
+  font-weight: 800;
+  color: black;
+}
+.aside-nav-link-name {
+  width: 110px;
+  height: 100px;
+
+  margin-left: 0;
+  padding-top: 10px;
+  justify-items: center;
+  font-size: small;
+  background-color: #f0f3f4;
+  font-weight: 100;
+  color: gray;
+}
+.tweeter-button-nav {
+  width: 220px;
+  height: 100px;
+  text-align: center;
+  justify-items: center;
+  font-size: large;
+  background-color: #1da1f1;
+  font-weight: 100;
+}
+.tweeter-button-nav-word {
+  display: grid;
+  padding-top: 18px;
+  color: white;
+}
+.aside-nav-inline-footer {
+  width: 1fr;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  background-color: #f0f3f4;
+}
+.aside-nav-li-footer {
+  width: 150px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 50px 2fr 1fr;
+  text-align: center;
+  justify-items: center;
+  font-size: large;
+  background-color: #f0f3f4;
+  font-weight: 100;
+}
+.aside-nav-avatar {
+  width: 50px;
+  height: 50px;
+  border: 2px dotted red;
+  border-radius: 50%;
+}
+.aside-nav-link-name {
+  width: 150px;
+  height: 200px;
+  border: 2px dotted red;
+}
+.aside-nav-more-horiz {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+}
+/* end of aside style */
+/*main style */
+
+.column-2-header {
+  width: auto;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  border: 2px dotted red;
+}
+.frame-icon-header {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+  margin-top: 20px;
+}
+
+.frame-icon-form {
+  width: auto;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  display: inline;
+}
+.frame-avatar {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+  margin-top: 10px;
+}
+.avatar-comment-form {
+  width: 1fr;
+  height: 70px;
+  border: 2px dotted red;
+}
+.frame-avatar-comment-form {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.action-button {
+  width: 360px;
+  height: 60px;
+  border: 2px dotted red;
+}
+.secondary-icon {
+  width: 40px;
+  height: 40px;
+  border: 2px dotted red;
+}
+.secondary-icon-button {
+  width: 100px;
+  height: 50px;
+  border: 2px dotted red;
+  margin-left: 45px;
+}
+.column2-tweet-button {
+  width: 80px;
+  height: 35px;
+  background-color: #1da1f1;
+  border-radius: 20px;
+  color: #f0f3f4;
+}
+.icons-grid-auto__column {
+  display: grid;
+  grid-template-columns: repeat(5, 40px) 1fr;
+}
+.column2-news-section {
+  width: auto;
+  height: 70px;
+
+
+  border: 2px dotted red;
+}
+.column2-news-section {
+display: grid;
+grid-template-columns: 40px, 1fr;
+
+}
+.column2-news-section-icon {
+  width: 40px;
+  height: 40x;
+  border: 2px dotted red;
+}
+.column2-news-section-paragraph {
+  width: 160px;
+  height: 60px;
+
+  border: 2px dotted red;
+
+}

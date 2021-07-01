@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="height__100 container main-layout">
+        <aside>
+            <div class="navigation">
+                <ul class="navigation-list nav-ul">
+                    <a href="">
+                        <li class="aside-nav-li ">
+
+                            <div class="aside-nav-tweeter-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav--logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word-header">Home</div>
+
+                        </li>
+                    </a>
+
+
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">Notifications</div>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">Messages</div>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">Bookmarks</div>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">Lists</div>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">Profile</div>
+
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="aside-nav-li aside-nav-inline">
+
+                            <div class="aside-nav-logo">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div class="aside-nav-word">More</div>
+
+                        </li>
+                    </a>
+
+                    <a href="">
+                        <li class="aside-nav-li-button">
+
+                            <button class="tweeter-button-nav tweeter-button-nav-word">Tweet</button>
+
+                        </li>
+                    </a>
+
+
+
+                    <li class=" aside-nav-inline-footer">
+                        <div class="aside-nav-li-footer">
+                            <div class="aside-nav-avatar">
+                                <div><img src="" alt=""></div>
+                            </div>
+                            <div>
+                                <div class="aside-nav-link-name">@nocilas_dev_</div>
+                            </div>
+
+                            <div class="aside-nav-more-horiz">
+                                <div><img src="" alt=""></div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </aside>
+        <!-- end of aside nav -->
+        <!-- main html -->
+        <main>
+            <div class="nav-list">
+                <ul>
+                
+                    <li>
+                        <div class="column-2-header">
+                        <div><h1>home</h1></div>
+                    
+                            <div class="frame-icon-header"><a href=""></a>
+                            
+                            </div>
+
+                        
+                    </div>
+                    </li>
+                    <li>
+                        <div class="frame-avatar-comment-form">
+                        <div>
+                            <div>
+                                <div class="frame-avatar"></div>
+                            </div>
+                        </div>
+               <div class="avatar-comment-form">
+                   <form action="">
+                       <textarea name="tweet-comment" id="" cols="30" rows="10" placeholder="What happening?"></textarea>
+                    </div>
+                       <div class="action-button two-column-grid__expand-two">
+                           <ul class="icons-grid-auto__column">
+                               
+                               
+                               <li class="secondary-icon"></li>
+                               <li class="secondary-icon"></li>
+                               <li class="secondary-icon"></li>
+                               <li class="secondary-icon"></li>
+                               <li class="secondary-icon"></li>
+                              <li class="secondary-icon-button">
+                               <button class="column2-tweet-button"type="submit">
+                               Tweet   
+                               </button>
+                              </li>
+                       </div>
+                   </form>
+               </div>
+            
+                    </li>
+            
+                    <li>
+
+                        <div class="">
+                            <ul>
+                                <li>
+                                    <div class="column2-news-section">
+                                     <div class="column2-news-section-icon">icon</div>
+                                     <div class="column2-news-section-paragraph"><p>Eric Elliott Retweeted</p></div>
+                                    </div>
+                                </li>
+                            <li>
+                                <div>
+                                <h2>woki GITer of coins</h2>
+                                </div>
+                                <div>@owocki.26m</div>
+                                <div>icon</div>
+                            </li>
+                            <li>
+                                <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                </div>
+                                <div>icon</div>
+                                
+                                
+
+                            
+                            </li>
+                           <li>
+                                <ul>
+                                 <li>icon</li>
+                                 <li>icon</li>
+                                 <li>icon</li>
+                                 <li>icon</li>
+                                 <li>icon</li>
+                                </ul>
+                            </li>
+                            </ul>
+                            <!-- insert icon here -->
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <ul>
+                            <div>
+                                <a href="">
+                                    <li>icon</li>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <h3>GroupDocs @GroupDocs</h3>
+                                </a>
+                                <p>Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Commodi quos eius perferendis
+                                    dignissimos error porro laborum nesciunt neque architecto
+                                    omnis laudantium, beatae ad molestias similique maxime
+                                    sillum quis labore! Velit.
+                                <p></p>
+                                </p>
+                                read more <a href="">
+                                    <bit class="">bit.ly/347331o
+                                </a>
+                            </div>
+                            <a href=""></a>
+                        </ul>
+                    </li>
+                </ul>
+                </nav>
+                <div>
+
+
+                </div>
+            </div>
+        </main>
+        <!-- end of main -->
+        <!--  aside start html-->
+        <aside>
+            <div>
+                <ul>
+                    <li>
+                        <from>
+                            <label for=""></label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </from>
+                    </li>
+                    <li>
+                        <h3>What's Happening?</h3>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">news . live</a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Molestias optio nostrum cumque sed beatae non
+                            voluptatibus maxime alias, eos repellat magni d
+                            istinctio dolorem iusto, aliquam nemo temporibus
+                            aperiam quisquam impedit.
+
+                        </p>
+                        <a href="">Tending with Belfast, Northern Ireland</a>
+            </div>
+            <div>
+                picture
+            </div>
+            </li>
+            <li>
+                <h3>#MeetTheRichardsons</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Ea, dolor. Maiores libero vel
+                    doloremque debitis reiciendis eaque placeat
+                    molestias, minus labore non, nam commodi
+                    consequatur id quas. Vero, labore dolores?
+
+                </p>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="">political . trending</a></li>
+                    <li>
+                        <p>Alex Jones</p>
+                    </li>
+                    <li><a href="">46.5K Tweet</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <ul>
+                    <li><a href="">political . trending</a></li>
+                    <li>
+                        <p>Hong Kong</p>
+                    </li>
+                    <li><a href="">46.5K Tweet</a></li>
+                </ul>
+            </li>
+            <li></li>
+            </ul>
+    </div>
+    </aside>
+
+
+    </div>
+
+
+    <!-- end of aside html -->
+
+
+</body>
+
+</html>
